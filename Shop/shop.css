@@ -218,8 +218,51 @@
     .fa-instagram{
         font-size: 18px;
     }
-    .d15 .fa-arrow-down {
-        font-size: 3.5rem;
+    .category-list {
+        line-height: 2;
+      }
+      
+      .category-list ul {
+        list-style: none; 
+        padding-left: 10px;
+      }
+      
+      .category-list li {
+        color: #aaa; 
+      }
+      
+      .category-list li a {
+        text-decoration: none; 
+        color: inherit;
+        font-size: 1em;
+        display: flex; 
+        align-items: center;
+      }
+      
+      .category-list li a:hover {
+        color: #333; 
+      }
+    .all {
+        color: black;
+    }
+    /* Styling for the bullet/dot */
+    .category-list .dot1 {
+      display: inline-block;
+      width: 6px;
+      height: 6px;
+      border-radius: 50%; 
+      background-color: #a67c52; 
+      margin-right: 10px; 
+    }
+    .dot {
+      padding-left: 1rem;
+    }
+    /* Styling for the "count" numbers */
+    .category-list .count sub {
+      font-size: 0.7em; 
+      color: #333;
+      position: relative;
+      top: -1em;
     }
     @font-face{
         src: url(font/Joanna\ Nova\ W06\ Regular.woff) format(woff);
@@ -982,55 +1025,6 @@
         text-decoration: none;
         color: inherit;
     }
-
-  .category-list {
-    line-height: 2;
-  }
-  
-  .category-list ul {
-    list-style: none; 
-    padding-left: 10px;
-  }
-  
-  .category-list li {
-    color: #aaa; 
-  }
-  
-  .category-list li a {
-    text-decoration: none; 
-    color: inherit;
-    font-size: 1em;
-    display: flex; 
-    align-items: center;
-  }
-  
-  .category-list li a:hover {
-    color: #333; 
-  }
-.all {
-    color: black;
-}
-  /* Styling for the bullet/dot */
-  .category-list .dot1 {
-    display: inline-block;
-    width: 6px;
-    height: 6px;
-    border-radius: 50%; 
-    background-color: #a67c52; 
-    margin-right: 10px; 
-  }
-  .dot {
-    padding-left: 1rem;
-  }
-  /* Styling for the "count" numbers */
-  .category-list .count sub {
-    font-size: 0.7em; 
-    color: #333;
-    position: relative;
-    top: -1em;
-  }
-  
-
     .content {
         height: 2000px; /* For scrollable effect */
         padding: 20px;
