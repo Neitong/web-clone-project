@@ -414,9 +414,8 @@ button:hover {
 
 .sub-content5 {
   display: flex;
-  /* Allows items to wrap on smaller screens */
-  justify-content: center; /* Center content */
-  gap: 15rem; /* Add spacing between items */
+  justify-content: center;
+  gap: 15rem;
 }
 
 .photo1,
@@ -427,18 +426,18 @@ button:hover {
 }
 
 .gray-bg1 {
-  width: 100%; /* Allow the width to adjust dynamically */
-  max-width: 32rem; /* Set a max width */
-  aspect-ratio: 4 / 5; /* Maintain aspect ratio */
+  width: 100%; 
+  max-width: 32rem;
+  aspect-ratio: 4 / 5; 
   background-color: #e0dcdc;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .gray-bg2 {
-  width: 100%; /* Allow the width to adjust dynamically */
-  max-width: 24rem; /* Set a max width */
-  aspect-ratio: 4 / 5; /* Maintain aspect ratio */
+  width: 100%; 
+  max-width: 24rem;
+  aspect-ratio: 4 / 5; 
   background-color: #e0dcdc;
   display: flex;
   justify-content: center;
@@ -446,12 +445,12 @@ button:hover {
 }
 
 .image-1 img {
-  width: 90%; /* Adjust image size to fit container */
-  height: auto; /* Maintain aspect ratio */
+  width: 90%;
+  height: auto; 
 }
 .image-2 img {
-  width: 90%; /* Adjust image size to fit container */
-  height: auto; /* Maintain aspect ratio */
+  width: 90%; 
+  height: auto; 
 }
 
 .Main-content10 {
