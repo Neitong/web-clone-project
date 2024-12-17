@@ -1,0 +1,187 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgray;
+    overflow-y: hidden;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 92vh;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 44vw;
+}
+.image img {
+    display: flex;
+    justify-content: center;
+    width: 97%;
+    height: 100%;
+    margin: 0px;
+    padding-left: 23px;
+    padding-top: 15px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    height: 37px;
+    margin: 16px 16px 0px;
+    font-size: 14px;
+    text-align: center;
+    font-family: "Neue Montreal", Arial, Helvetica, sans-serif;
+}
+.header i {
+    justify-content: center;
+    padding-top: 0.3em;
+}
+hr {
+    width: 94%;
+    margin-left: auto;
+    margin-right: auto;
+}
+i {
+    cursor: pointer;
+}
+.date {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    height: 38px;
+    margin: 10px;
+    margin-top: 18px;
+    font-family: arial;
+}
+.date-option span {
+    font-size: 15px;
+    color: rgb(66, 60, 60);
+    padding-left: 40px;
+    font-family: arial;
+}
+.guest  {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+    font-family: arial;
+}
+.guest-option span {
+    font-size: 15px;
+    color: rgb(66, 60, 60);
+    font-family: arial;
+}   
+.time {
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 10px;
+    height: 45px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: arial;
+}
+.time span {
+    font-size: 15px;
+    color: rgb(66, 60, 60);
+    text-align: center;
+    padding-left: 5px;
+    font-family: arial;
+}
+.search{
+    height: 62px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+.search button{
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 42px;
+    background-color: #324654;
+    /* margin-left: 30px; */
+    border-radius: 3px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: white;
+    font-family: "Joanna Nova", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+}
+.search a {
+    color: white;
+    text-decoration: none;
+    font-family: "Joanna Nova", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.search a:visited,
+.search a:hover,
+.search a:active {
+    color: white;
+    text-decoration: none;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    height: 90px;
+    margin: 16px 16px 0px;
+    font-size: 11px;
+    font-family: "PT serif";
+}
+.footer a {
+    color: black;
+    text-decoration: none;
+    font-family: "PT serif";
+    font-size: 11px;
+}
+
+.footer a:visited,
+.footer a:hover,
+.footer a:active {
+    color: black;
+    text-decoration: none;
+}
+@media (max-width: 480px){
+   .container{
+        max-width: 100%;
+        
+   }
+}
+
+
+@font-face {
+    font-family: 'Joanna Nova';
+    src: url(font/Joanna\ Nova\ W06\ Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Joanna Nova';
+    src: url(font/Joanna\ Nova\ W06\ Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: bold;
+}
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(font/Neue\ Montreal\ Regular.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Neue Montreal';
+    src: url(font/Neue\ Montreal\ Bold.woff) format('woff');
+    font-weight: bold;
+    font-style: bold;
+}
