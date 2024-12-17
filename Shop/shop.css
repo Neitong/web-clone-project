@@ -983,47 +983,53 @@
         color: inherit;
     }
 
-    /* Category List */
-    .category-list {
-        margin: 20px;
-        font-size: 16px;
-        color: #333;
-    }
-
-    .category-list ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    .category-list li {
-        margin-bottom: 10px;
-        font-size: 14px;
-    }
-
-    .category-list a {
-        text-decoration: none;
-        color: #6b6b6b;
-        display: flex;
-        align-items: center;
-        transition: color 0.3s;
-    }
-
-    .category-list a:hover {
-        color: black;
-    }
-
-    .category-list .dot {
-        width: 6px;
-        height: 6px;
-        background-color: #6b6b6b;
-        border-radius: 50%;
-        margin-right: 8px;
-    }
-
-    .category-list .count {
-        margin-left: 8px;
-        font-weight: bold;
-    }
+  .category-list {
+    line-height: 2;
+  }
+  
+  .category-list ul {
+    list-style: none; 
+    padding-left: 10px;
+  }
+  
+  .category-list li {
+    color: #aaa; 
+  }
+  
+  .category-list li a {
+    text-decoration: none; 
+    color: inherit;
+    font-size: 1em;
+    display: flex; 
+    align-items: center;
+  }
+  
+  .category-list li a:hover {
+    color: #333; 
+  }
+.all {
+    color: black;
+}
+  /* Styling for the bullet/dot */
+  .category-list .dot1 {
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%; 
+    background-color: #a67c52; 
+    margin-right: 10px; 
+  }
+  .dot {
+    padding-left: 1rem;
+  }
+  /* Styling for the "count" numbers */
+  .category-list .count sub {
+    font-size: 0.7em; 
+    color: #333;
+    position: relative;
+    top: -1em;
+  }
+  
 
     .content {
         height: 2000px; /* For scrollable effect */
@@ -1919,4 +1925,7 @@ input::placeholder {
     .head-logo{
         font-size: 2rem;
     }
+}
+.sub-menu {
+    padding-right: 1rem;
 }
