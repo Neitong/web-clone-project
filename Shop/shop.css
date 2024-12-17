@@ -265,7 +265,7 @@
     .detail4 {
         font-weight: 650;
         font-size: 6.5vw; /* Larger font size for better visibility */
-        font-family: joanna-nova, sans-serif;
+        /* font-family: joanna-nova, sans-serif; */
     }
 
     /* Header Styling */
@@ -415,7 +415,7 @@
     /* Typography Adjustments */
     .detail-2, 
     .detail-3, 
-    .detail4 {
+    .detail-4 {
         font-weight: 650;
         font-size: 6.5vw; /* Larger font size for better visibility */
         font-family: joanna-nova, sans-serif;
