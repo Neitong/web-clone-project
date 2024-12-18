@@ -582,43 +582,55 @@ p{
     height: 4.85rem;
     padding: 0.25rem;
     border-width: 1px;
+    border-color: #bb946e;
+    border-style: solid;
 }
 
 
 
 .border-menu-item-sunday{
-    width: 14.625rem;
+    /* width: 19.325rem; */
     height: 4.85rem;
     padding: 0.25rem;
     border-width: 1px;
+    border-color: #bb946e;
+    border-style: solid;
 }
 
 .border-menu-item-lunch{
-    width: 20.733125rem;
+    width: 20.733125rem + 2.2rem;
     height: 4.85rem;
     padding: 0.25rem;
     border-width: 1px;
+    border-color: #bb946e;
+    border-style: solid;
 }
 
 .border-menu-item-wine{
-    width: 19.4475rem;
+    width: 19.4475rem + 2.2rem;
     height: 4.85rem;
     padding: 0.25rem;
     border-width: 1px;
+    border-color: #bb946e;
+    border-style: solid;
 }
 
 .border-menu-item-group{
-    width: 19.19375rem;
+    width: 19.19375rem + 2.2rem;
     height: 4.85rem;
     padding: 0.25rem;
     border-width: 1px;
+    border-color: #bb946e;
+    border-style: solid;
 }
 
 .border-menu-item-dec{
-    width: 21.835rem;
+    width: 21.835rem + 2.2rem;
     height: 4.85rem;
     padding: 0.25rem;
     border-width: 1px;
+    border-color: #bb946e;
+    border-style: solid;
 }
 
 .border-menu-item-afternoon{
@@ -626,10 +638,13 @@ p{
     height: 4.85rem;
     padding: 0.25rem;
     border-width: 1px;
+    border-color: #bb946e;
+    border-style: solid;
 }
 
 .border-tan{
     border-color: #bb946e;
+    
 }
 
 
@@ -782,9 +797,8 @@ p{
     display:block;
     width: 1rem;
     height: 1px;
-    --bg-opacity: 1;
     background-color: #fff;
-    background-color: rgba(255, 255, 255, var(--bg-opacity));
+    
 }
 
 #shopify-section-menu-images{
